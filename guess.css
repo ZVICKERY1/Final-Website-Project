@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+li {
+    float: right;
+    color: red;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none; 
+}
+
+a {
+    display: block;
+    padding: 0px;
+    background-color: white;
+    font-size: 25px;
+    border: 10px solid;
+}
+
+ul {
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    display: inline-block;
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    top: 0;
+}
+
+li a:hover {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: white;
+    text-decoration: underline;
+}
+
+button {
+    background-color: wheat;
+}
+
+.gnumber {
+    color: white;
+}
+
+.header {
+    margin: auto;
+    color: white;
+    display: inline-block;
+    border-color: white;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    font-size: 350%
+}
+
+.header-holder {
+    text-align: left;
+}
+
+.portfolio {
+    border: 5px solid white;
+    margin-bottom: 50px;
+    padding: 15px 15px;
+    width: fit-content;
+    transition: 0.3s;
+    background-color: currentColor;
+}
+
+.container {
+    margin-left: 50px;
+    margin-top: 50px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.portfolio-image {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.the-footer {
+    color: white;
+    background-color: white;
+}
+.stuff {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}

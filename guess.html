@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="guess.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="header-holder">
+        <h1 class="header">A Game so that I can meet my requirements</h1>
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="guess.html">Guess</a></li>
+    </ul>
+    <div class="stuff">
+        <h2>Guess a number between 1 and 10 please</h2>
+        <form>
+            <label type="number">Guess the Number</label>
+            <input class="gnumber" type="number" id="gnumber" name="gnumber">
+            
+        </form>
+        <button onclick="myFunction()" type="button" id="prob" class="button">Guess</button>
+        <p id="yeah"></p>
+        <img id="image">
+    </div>
+
+    <script>
+        var img = document.getElementById("image");
+        var y = Math.floor(Math.random() * 11);
+        function myFunction() {
+            var x = document.getElementById("gnumber").value;
+            if (x > y) {
+                document.getElementById("yeah").innerHTML = "GO LOWER";
+            } else if (x < y) {
+                document.getElementById("yeah").innerHTML = "GO HIGHER";
+            } else {
+                document.getElementById("yeah").innerHTML = "You got it right";
+                img.src = "images/won.gif";
+
+            };
+        };
+    </script>
+    
+</body>
+
+</html>

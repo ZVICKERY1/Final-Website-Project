@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none; 
+}
+
+li p {
+    text-align: left;
+}
+
+a {
+    display: block;
+    padding: 0px;
+    background-color: white;
+    font-size: 25px;
+    border: 10px solid;
+}
+
+li a:hover {
+    color: white;
+    background-color: black;
+}
+footer {
+    border-top: 5px solid white;
+    width: auto;
+    color: white;
+    text-align: center;
+    padding: auto;
+    position: relative;
+    min-height: 100%;
+}
+
+.header {
+    margin: auto;
+    color: white;
+    display: inline-flex;
+    border-color: white;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    font-size: 350%;
+    padding: 15px;
+}
+
+.header-holder {
+    text-align: left;
+}
+
+.portfolio {
+    border: 5px solid white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 15px 15px;
+    width: fit-content;
+    transition: 0.3s;
+    background-color: currentColor;
+}
+
+.container {
+    margin-left: 70px;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+}
+
+.portfolio-image {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.list {
+    color: white;
+    width: fit-content;
+}
+
+.project-list {
+    border: 5px solid white;
+    text-decoration: underline;
+}
+.project-list li {
+    padding: 10px;
+}
+
+
+#bar {
+    float: auto;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    display: inline-flex;
+    list-style-type: none;
+    width: auto;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
